@@ -2,23 +2,28 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Permission checker\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Permission checker\n\n\nWhy you need a permission checker?\n\n\n\n\nCurrent android operating system only show permissions in group. Actually there are more permissions than what you expect in one group. For example, \nPhone\n permission group includes \n9\n permissions.\n\n\nUnderstand the permission in detail. We provide a understandable web page to help users understand permission better so that you can make decisions wisely.\n\n\n\n\nAlways AD free!\n\n\nHow to use it?\n\n\nTODO", 
             "title": "Home"
         }, 
         {
             "location": "/#permission-checker", 
-            "text": "For full documentation visit  mkdocs.org .", 
+            "text": "", 
             "title": "Permission checker"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#why-you-need-a-permission-checker", 
+            "text": "Current android operating system only show permissions in group. Actually there are more permissions than what you expect in one group. For example,  Phone  permission group includes  9  permissions.  Understand the permission in detail. We provide a understandable web page to help users understand permission better so that you can make decisions wisely.", 
+            "title": "Why you need a permission checker?"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#always-ad-free", 
+            "text": "", 
+            "title": "Always AD free!"
+        }, 
+        {
+            "location": "/#how-to-use-it", 
+            "text": "TODO", 
+            "title": "How to use it?"
         }, 
         {
             "location": "/policy/", 
@@ -92,23 +97,13 @@
         }, 
         {
             "location": "/about/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "About us\n\n\nWe care about your privacy.", 
             "title": "About"
         }, 
         {
-            "location": "/about/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
-        }, 
-        {
-            "location": "/about/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/about/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/about/#about-us", 
+            "text": "We care about your privacy.", 
+            "title": "About us"
         }
     ]
 }
