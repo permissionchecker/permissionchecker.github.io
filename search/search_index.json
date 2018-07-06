@@ -1,0 +1,114 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Permission checker\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#permission-checker", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Permission checker"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/policy/", 
+            "text": "Permission Checker: Privacy Policy\n\n\nSummary\n\n\n\n\nWe collect cookie and usage data for analytics and research purposes only.\n\n\nIP addresses are anonymized when storing usage data, so usage data is not easily identifiable.\n\n\nPersonally-identifiable information is not shared with third parties. Aggregated information may be shared with third parties and reasonable efforts will be taken to ensure that individuals cannot be re-identified through ordinary means.\n\n\n\n\nDetails\n\n\nNon-personal identification information\n\n\nWe may collect non-personal identification information about Users whenever they interact with our Site or our Apps. Non-personal identification information may include the browser name, the type of computer or mobile device, and technical information about Users means of connection to our Site or use of our mobile applications (\"Apps\"), such as the operating system and the Internet service providers utilized and other similar information.\n\n\nPersonal identification information\n\n\nWe will not collects any information that can identify any individual user, like names or personal email addresses, in our Apps.\n\n\nLocation information\n\n\nSome of our Apps may have the ability read your location from your mobile device and may use this information to enhance the functionality of the app. In some cases this may require location information to be transmitted to 3rd parties.\n\n\nPrivacy sensitive information\n\n\nSome of our Apps may have the ability to read sensitive information like contact cards or calendars on your mobile devices. All these sensitive information will only be used locally on your devices to enhance the functionality of the app. These information will \nNOT\n be collected or transmitted to our server or any 3rd parties. However, we might collect the information that whether you accept to give our Apps the ability to read those sensitive information.\n\n\nHow we use collected information\n\n\nWe collect and uses Users personal information for the following purposes:\n\n\na. \nTo improve our Apps\n\n      We continually strive to improve our Apps based on the information and feedback we receive from you.\n\n\nb. \nFor academic research purposes\n\n      We reserve the right to report collected information for academic research purposes. All data will be reported in an anonymous way. We won't reveal any information that can track specific individual customers.\n\n\nHow we protect your information\n\n\nWe adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of data stored on our servers.\n\n\nThird party websites\n\n\nUsers may find advertising or other content on our Site or in our Apps that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website\u2019s own terms and policies. Here are links to the privacy policies of a few of the distributors we use:\n      Google AdMob, Google Analytics - www.google.com/policies/privacy/partners\n\n\nAnalytics\n\n\nWe use Google Analytics and/or third parties to collect data from, control and/or monitor computers and devices running or interacting with the Apps. The collected data is anonymously and used to help us understand how customers engage with this application. It reports application trends without identifying individual customers. We reserve the right to anonymously track and report your activity inside of our applications. We reserve the right to use processed analytics data for academic research purposes. We will not share this information with other customers, or any third parties.\n\n\nYour acceptance of these terms\n\n\nBy using our Apps, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Apps. Your continued use of Apps following the posting of changes to this policy will be deemed your acceptance of those changes.\n\n\nContacting us\n\n\nIf you have any questions about this Privacy Policy, please contact us at: \noperarelease@gmail.com\n.", 
+            "title": "Policy"
+        }, 
+        {
+            "location": "/policy/#permission-checker-privacy-policy", 
+            "text": "", 
+            "title": "Permission Checker: Privacy Policy"
+        }, 
+        {
+            "location": "/policy/#summary", 
+            "text": "We collect cookie and usage data for analytics and research purposes only.  IP addresses are anonymized when storing usage data, so usage data is not easily identifiable.  Personally-identifiable information is not shared with third parties. Aggregated information may be shared with third parties and reasonable efforts will be taken to ensure that individuals cannot be re-identified through ordinary means.", 
+            "title": "Summary"
+        }, 
+        {
+            "location": "/policy/#details", 
+            "text": "", 
+            "title": "Details"
+        }, 
+        {
+            "location": "/policy/#non-personal-identification-information", 
+            "text": "We may collect non-personal identification information about Users whenever they interact with our Site or our Apps. Non-personal identification information may include the browser name, the type of computer or mobile device, and technical information about Users means of connection to our Site or use of our mobile applications (\"Apps\"), such as the operating system and the Internet service providers utilized and other similar information.", 
+            "title": "Non-personal identification information"
+        }, 
+        {
+            "location": "/policy/#personal-identification-information", 
+            "text": "We will not collects any information that can identify any individual user, like names or personal email addresses, in our Apps.", 
+            "title": "Personal identification information"
+        }, 
+        {
+            "location": "/policy/#location-information", 
+            "text": "Some of our Apps may have the ability read your location from your mobile device and may use this information to enhance the functionality of the app. In some cases this may require location information to be transmitted to 3rd parties.", 
+            "title": "Location information"
+        }, 
+        {
+            "location": "/policy/#privacy-sensitive-information", 
+            "text": "Some of our Apps may have the ability to read sensitive information like contact cards or calendars on your mobile devices. All these sensitive information will only be used locally on your devices to enhance the functionality of the app. These information will  NOT  be collected or transmitted to our server or any 3rd parties. However, we might collect the information that whether you accept to give our Apps the ability to read those sensitive information.", 
+            "title": "Privacy sensitive information"
+        }, 
+        {
+            "location": "/policy/#how-we-use-collected-information", 
+            "text": "We collect and uses Users personal information for the following purposes:  a.  To improve our Apps \n      We continually strive to improve our Apps based on the information and feedback we receive from you.  b.  For academic research purposes \n      We reserve the right to report collected information for academic research purposes. All data will be reported in an anonymous way. We won't reveal any information that can track specific individual customers.", 
+            "title": "How we use collected information"
+        }, 
+        {
+            "location": "/policy/#how-we-protect-your-information", 
+            "text": "We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of data stored on our servers.", 
+            "title": "How we protect your information"
+        }, 
+        {
+            "location": "/policy/#third-party-websites", 
+            "text": "Users may find advertising or other content on our Site or in our Apps that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website\u2019s own terms and policies. Here are links to the privacy policies of a few of the distributors we use:\n      Google AdMob, Google Analytics - www.google.com/policies/privacy/partners", 
+            "title": "Third party websites"
+        }, 
+        {
+            "location": "/policy/#analytics", 
+            "text": "We use Google Analytics and/or third parties to collect data from, control and/or monitor computers and devices running or interacting with the Apps. The collected data is anonymously and used to help us understand how customers engage with this application. It reports application trends without identifying individual customers. We reserve the right to anonymously track and report your activity inside of our applications. We reserve the right to use processed analytics data for academic research purposes. We will not share this information with other customers, or any third parties.", 
+            "title": "Analytics"
+        }, 
+        {
+            "location": "/policy/#your-acceptance-of-these-terms", 
+            "text": "By using our Apps, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Apps. Your continued use of Apps following the posting of changes to this policy will be deemed your acceptance of those changes.", 
+            "title": "Your acceptance of these terms"
+        }, 
+        {
+            "location": "/policy/#contacting-us", 
+            "text": "If you have any questions about this Privacy Policy, please contact us at:  operarelease@gmail.com .", 
+            "title": "Contacting us"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/about/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/about/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }
+    ]
+}
