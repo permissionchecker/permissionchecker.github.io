@@ -1,358 +1,191 @@
-
-
-
-
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+
+    <title>Permission Checker App |  </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      
-      
-      
-      
-        <meta name="lang:clipboard.copy" content="Copy to clipboard">
-      
-        <meta name="lang:clipboard.copied" content="Copied to clipboard">
-      
-        <meta name="lang:search.language" content="en">
-      
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
-        <meta name="lang:search.result.none" content="No matching documents">
-      
-        <meta name="lang:search.result.one" content="1 matching document">
-      
-        <meta name="lang:search.result.other" content="# matching documents">
-      
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
-      
-      <link rel="shortcut icon" href="./assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.5, mkdocs-material-2.9.2">
+
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/style/doc.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico">
+
     
-    
-      
-        <title>Permission Checker</title>
-      
-    
-    
-      <link rel="stylesheet" href="./assets/stylesheets/application.ba0fd1a6.css">
-      
-      
-    
-    
-      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
-    
-    
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-      
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
-      
-    
-    <link rel="stylesheet" href="./assets/fonts/material-icons.css">
-    
-    
+
   </head>
-  
-    <body dir="ltr">
-  
-    <svg class="md-svg">
-      <defs>
-        
-        
-      </defs>
-    </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#permission-checker" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Permission Checker" class="md-header-nav__button md-logo">
-          
-            <i class="md-icon"></i>
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            
-              <span class="md-header-nav__topic">
-                Permission Checker
-              </span>
-              <span class="md-header-nav__topic">
-                Home
-              </span>
-            
-          
-        </div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
+  <body>
+
+   <script>window.__INITIAL_STATE__ = {"page":{"path":"index.html","title":""},"data":{"navigation":{"logo":{"text":"Permission Checker App","type":"link","path":"index.html"},"main":[{"text":"Introduction","type":"link","path":"index.html"},{"text":"Privacy policy","type":"link","path":"privacy.html"},{"text":"Contact","type":"link","path":"contact.html"}]}},"config":{"timezone":"UTC","root":"/","time_format":"HH:mm:ss","theme":"../node_modules/hexo-theme-doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico","google_analytics":"UA-110511310-5"}}}</script>
+
+    <div id="react-navigation-root"><div class="doc-navigation" data-reactroot=""><nav class="doc-navbar"><a href="/index.html" class="doc-navbar__logo"><img src="/images/logo.png" class="doc-navbar__logo__img"/><span class="doc-navbar__logo__text">Permission Checker App</span></a><i class="dc-icon dc-icon--close dc-icon--interactive doc-sidebar-close doc-navbar__sidebar-close doc-navbar__sidebar-close--desktop"></i><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-navbar__sidebar-toggle"></i></nav><nav class="doc-sidebar"><div class="doc-sidebar__vertical-menu"><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-sidebar-toggle--primary doc-sidebar__vertical-menu__item"></i><i class="dc-icon dc-icon--search dc-icon--interactive doc-sidebar__vertical-menu__item doc-sidebar__vertical-menu__item--primary"></i></div><div class="doc-sidebar-content"><div class="doc-sidebar__search-form"></div><ul class="doc-sidebar-list"></ul></div></nav></div></div>
+    <div class="doc-content">
+  <div class="dc-page">
+    <div class="dc-card">
+      <div id="react-search-results-root"></div>
+      <div id="page-content" class="doc-formatting">
+        <h1 id="Permission-checker"><a href="#Permission-checker" class="headerlink" title="Permission checker"></a>Permission checker</h1><h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1><p>You can download our app at <a href="https://play.google.com/store/apps/details?id=com.sbysoft.perchecker" target="_blank" rel="noopener">Google play</a>.</p>
+<h3 id="Why-you-need-a-permission-checker"><a href="#Why-you-need-a-permission-checker" class="headerlink" title="Why you need a permission checker?"></a>Why you need a permission checker?</h3><p>We belive the current (2018/08) android permission management system (later than android 6.0)is deeply flawed for several reasons.</p>
+<ul>
+<li><b>Runtime permission can be bypassed by changing target sdk version.</b> Starting from Android 6.0, Google has introduced run time permissions in Android operating system. And there is the google official best practice <a href="https://developer.android.com/distribute/best-practices/develop/runtime-permissions" target="_blank" rel="noopener">here</a>. However, in the real world, if you set target sdk &lt; 23, which is before Android 6.0, the permissions will be granted automaticly when the app is installed. Very few people will manage to change the permissions through android permission manager since they are not aware of it!</li>
+</ul>
+<ul>
+<li><p><b>Permissions are granted by category, which may include more permissions than we want to grant.  </b> There are more permissions than what you expect in one group. For example, <code>Phone</code> permission group includes <strong>9</strong> permissions, including reading user’s call logs and get phone unique device IDs. For another example, <code>READ</code> and <code>WRITE</code> <code>CALENDAR</code> permissions are managed at the same time. If I want add one event to calender from the mail app, I have to grant calendar permission to this app, which might cause the details of my calendar to “known” to the app. More fine-grained permission control will satisfy my need more.</p>
+</li>
+<li><p><b>Several important permissions can not be managed at runtime, since Google thinks they are not “dangerous”.</b> There are 10 categories of dangerous permissions, as shown in <a href="#ref1">appendix 1</a>. However, many important permissions, like network and bluetooth, can not be managed at runtime; it means as long as the app declared these permissions in the <code>Android Manifest</code>, the permissions will be granted to the app after it is installed. These permissions only show up at install time. As a result, many apps take advantage of this feature and abuses these permissions. To address this issue, we classify these abused permissions into several categories as shown in <a href="#ref 2">appendix 2</a>. We also show these permissions in Warning permissions category.</p>
+</li>
+</ul>
+<h3 id="How-do-we-design-Permission-Checker-to-address-these-issues"><a href="#How-do-we-design-Permission-Checker-to-address-these-issues" class="headerlink" title="How do we design Permission Checker to address these issues.?"></a>How do we design Permission Checker to address these issues.?</h3><ul>
+<li>We provide a list of apps with classified detailed permissions, in order to assist you manage permissions.</li>
+<li>We present the dangerous permissions with list of apps with statistics, which covers not only the granted apps, but all apps who declared it in the manifest.</li>
+<li>Unfortunately, due to the limitation of current android permission management system, we can only help you make changes to the default dangerous permissions. If you want to toggle these automaticly granted permissions, you have to root your phone.</li>
+</ul>
+<h3 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h3><table><br><tr><br><td><br><a><img src="images/en/1.png"></a><br></td><br><td><br><a><img src="images/en/2.png"></a><br></td><br><td><br><a><img src="images/en/3.png"></a><br></td><br><td><br><a><img src="images/en/4.png"></a><br></td><br></tr><br></table>
+
+<h3 id="Appendix"><a href="#Appendix" class="headerlink" title="Appendix"></a>Appendix</h3><h4 id="Dangerous-permission-categories-and-detailed-permissions"><a href="#Dangerous-permission-categories-and-detailed-permissions" class="headerlink" title="Dangerous permission categories and detailed permissions"></a><a name="ref1">Dangerous permission categories and detailed permissions</a></h4><ol>
+<li>Calendar<ul>
+<li>android.permission.READ_CALENDAR</li>
+<li>android.permission.WRITE_CALENDAR</li>
+</ul>
+</li>
+<li>Camera<ul>
+<li>android.permission.CAMERA</li>
+</ul>
+</li>
+<li>Contact<ul>
+<li>android.permission.READ_CONTACTS</li>
+<li>android.permission.WRITE_CONTACTS</li>
+</ul>
+</li>
+<li>Account<ul>
+<li>android.permission.GET_ACCOUNTS</li>
+</ul>
+</li>
+<li>Location<ul>
+<li>android.permission.ACCESS_FINE_LOCATION</li>
+<li>android.permission.ACCESS_COARSE_LOCATION</li>
+</ul>
+</li>
+<li>Audio<ul>
+<li>android.permission.RECORD_AUDIO</li>
+</ul>
+</li>
+<li>Phone<ul>
+<li>android.permission.READ_PHONE_STATE - this will reveal phone’s identity, like IMEI</li>
+<li>android.permission.READ_PHONE_NUMBERS</li>
+<li>android.permission.CALL_PHONE</li>
+<li>android.permission.ANSWER_PHONE_CALLS</li>
+<li>android.permission.READ_CALL_LOG</li>
+<li>android.permission.WRITE_CALL_LOG</li>
+<li>android.permission.ADD_VOICEMAIL</li>
+<li>android.permission.USE_SIP</li>
+<li>android.permission.PROCESS_OUTGOING_CALLS</li>
+</ul>
+</li>
+<li>Body sensor<ul>
+<li>android.permission.BODY_SENSORS</li>
+</ul>
+</li>
+<li>SMS<ul>
+<li>android.permission.SEND_SMS</li>
+<li>android.permission.RECEIVE_SMS</li>
+<li>android.permission.READ_SMS</li>
+<li>android.permission.RECEIVE_WAP_PUSH</li>
+<li>android.permission.RECEIVE_MMS</li>
+</ul>
+</li>
+<li>SD card (External storage or USB)<ul>
+<li>android.permission.READ_EXTERNAL_STORAGE</li>
+<li>android.permission.WRITE_EXTERNAL_STORAGE</li>
+</ul>
+</li>
+</ol>
+<h4 id="Non-official-dangerous-permission-categories-and-detailed-permissions"><a href="#Non-official-dangerous-permission-categories-and-detailed-permissions" class="headerlink" title="Non-official dangerous permission categories and detailed permissions"></a><a name="ref2">Non-official dangerous permission categories and detailed permissions</a></h4><ol>
+<li>Run at start up<ul>
+<li>android.permission.RECEIVE_BOOT_COMPLETED</li>
+</ul>
+</li>
+<li>Prevent phone from sleep<ul>
+<li>android.permission.WAKE_LOCK</li>
+</ul>
+</li>
+<li>Network<ul>
+<li>android.permission.INTERNET</li>
+<li>android.permission.ACCESS_NETWORK_STATE</li>
+<li>android.permission.CHANGE_NETWORK_STATE</li>
+</ul>
+</li>
+<li>WiFi<ul>
+<li>android.permission.CHANGE_WIFI_MULTICAST_STATE</li>
+<li>android.permission.ACCESS_WIFI_STATE</li>
+<li>android.permission.CHANGE_WIFI_STATE</li>
+</ul>
+</li>
+<li>Settings (This permission might be different for differnet ROMs.)<ul>
+<li>android.permission.WRITE_SETTINGS</li>
+</ul>
+</li>
+<li>Bluetooth<ul>
+<li>android.permission.BLUETOOTH</li>
+<li>android.permission.BLUETOOTH_ADMIN</li>
+</ul>
+</li>
+<li>Device and app histroy<ul>
+<li>android.permission.READ_LOGS</li>
+<li>android.permission.GET_TASKS - retrieve running apps</li>
+<li>com.android.browser.permission.READ_HISTORY_BOOKMARKS - browser history, scary</li>
+<li>android.permission.DUMP</li>
+</ul>
+</li>
+<li>Close other apps<ul>
+<li>android.permission.KILL_BACKGROUND_PROCESSES</li>
+<li>android.permission.FORCE_STOP_PACKAGES</li>
+</ul>
+</li>
+<li>Vibrate<ul>
+<li>android.permission.VIBRATE</li>
+</ul>
+</li>
+</ol>
+
+        <div id="react-support-footer-root"></div>
       </div>
     </div>
   </div>
 </div>
-          
-        
-      </div>
-      
-    </div>
-  </nav>
-</header>
-    
-    <div class="md-container">
-      
-        
-      
-      
-      <main class="md-main">
-        <div class="md-main__inner md-grid" data-md-component="container">
-          
-            
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <span class="md-nav__button md-logo">
-      
-        <i class="md-icon"></i>
-      
-    </span>
-    Permission Checker
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-      </label>
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-you-need-a-permission-checker" title="Why you need a permission checker?" class="md-nav__link">
-    Why you need a permission checker?
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
 
     
-      
-      
-      
+<script>
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-110511310-5', 'auto');
+    ga('send', 'pageview');
+  }
+</script>
 
 
-  <li class="md-nav__item">
-    <a href="policy/" title="Policy" class="md-nav__link">
-      Policy
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="about/" title="About" class="md-nav__link">
-      About
-    </a>
-  </li>
 
     
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-you-need-a-permission-checker" title="Why you need a permission checker?" class="md-nav__link">
-    Why you need a permission checker?
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                <h1 id="permission-checker">Permission checker</h1>
-<h2 id="why-you-need-a-permission-checker">Why you need a permission checker?</h2>
-<ul>
-<li>Current android operating system only show permissions in group. Actually there are more permissions than what you expect in one group. For example, <code>Phone</code> permission group includes <strong>9</strong> permissions.</li>
-<li>Understand the permission in detail. We provide a understandable web page to help users understand permission better so that you can make decisions wisely.</li>
-</ul>
-<h1 id="always-ad-free">Always AD free!</h1>
-<h2 id="how-to-use-it">How to use it?</h2>
-<p>TODO</p>
-                
-                  
-                
-              
-              
-                
 
+    <!-- js vendors -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.0/lunr.min.js"></script>
 
-              
-            </article>
-          </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-        
-          <a href="policy/" title="Policy" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Policy
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
-      </div>
-      
-        
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
+    <!-- js source  -->
+    <script src="/script/doc.js"></script>
+
     
-      <script src="./assets/javascripts/application.a59e2a89.js"></script>
-      
-      <script>app.initialize({version:"0.17.5",url:{base:"."}})</script>
-      
-    
-    
-      
-    
+
   </body>
 </html>
